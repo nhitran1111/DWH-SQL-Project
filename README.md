@@ -1,4 +1,4 @@
-# DWH-SQL-Project
+# SQL Server Data Warehouse
 ## Objective
 ---
 - This project aim to build a contemporary data warehouse with SQL Server to integrate sales data, facilitating analytical reporting and data-driven decision-making.
