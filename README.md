@@ -1,14 +1,17 @@
 # DWH-SQL-Project
-## Project objective
-This project aim to build a contemporary data warehouse with SQL Server to integrate sales data, facilitating analytical reporting and data-driven decision-making.
+## Objective
+---
+- This project aim to build a contemporary data warehouse with SQL Server to integrate sales data, facilitating analytical reporting and data-driven decision-making.
+---
 ## Requirement
 - Data Sources: Import data from two primary systems ERP and CRM provided in CSV format.
 - Data Quality: Perform data cleansing and resolve any quality issues before analysis.
 - Integration: Merge data from both sources into a single, structured data model for analytical queries.
 - Scope: Focus to the most recent dataset; historical data is not required.
 - Documentation: Provide documentation of the data model to support business stakeholders and analytics teams.
-## Project Description
-This project involved three main stages:
+---
+## Description
+This project involved in
 1. Data Architecture
 2. ETL Process
 3. Data Modelling
@@ -25,6 +28,9 @@ Extraction type: Full load
 Extraction technique: File parsing
 Load
 Processing type: Batch processing
+
+/
+
 Load method: Fullload - Truncate & Insert 
 Slowly changing dimension: SCD2: Overwrite
 Data Modeling: Developing fact and dimension tables optimized for analytical queries.
