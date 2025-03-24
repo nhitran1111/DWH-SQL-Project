@@ -1,16 +1,16 @@
 # SQL Server Data Warehouse
-## 📌 Objective
+## 📌Objective
 This project aim to build a contemporary data warehouse with SQL Server to integrate sales data, facilitating analytical reporting and data-driven decision-making.
 
 ---
-## 📃 Requirement
+## 📃Requirement
 - **Data Sources**: Import data from two primary systems ERP and CRM provided in CSV format.
 - **Data Quality**: Perform data cleansing and resolve any quality issues before analysis.
 - **Integration**: Merge data from both sources into a single, structured data model for analytical queries.
 - **Scope**: Focus to the most recent dataset; historical data is not required.
 - **Documentation**: Provide documentation of the data model to support business stakeholders and analytics teams.
 ---
-## 🖼️ Description
+## 🖼️Description
 This project involved Data Architecture, ETL Process, Data Modeling as described below:
 
 ### 1. Data Architecture: Using Medallion Architecture 
@@ -23,12 +23,12 @@ This approach includes Bronze, Silver, and Gold layers.
 ### 2. ETL Process: 
 Extracting, transforming, and loading data from source systems into the warehouse as per below approaches:
 
-⚒️ **Extraction**
+⚒️**Extraction**
 - *Extraction method* : Pull extraction,
 - *Extraction type* : Full load
 - *Extraction technique* : File parsing
 
-⚙️ **Transformation**
+⚙️**Transformation**
 - Data Cleansing
 - Data Enchrichment
 - Data Integration
@@ -37,12 +37,12 @@ Extracting, transforming, and loading data from source systems into the warehous
 - Business Rules & Logics
 - Data Aggregations
 
- 🔃 **Load**
+ 🔃**Load**
 - *Processing type* : Batch processing
 - *Load method* : Fullload 
 - *Slowly changing dimension*: Overwrite
 
-### 3.Data Modeling
+### 3. Data Modeling
 Developing fact and dimension tables optimized for analytical queries, following star schema model
 
 ![Data_Model](documents/Data_Model.png)
