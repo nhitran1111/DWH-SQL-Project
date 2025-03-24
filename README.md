@@ -44,6 +44,7 @@ Extracting, transforming, and loading data from source systems into the warehous
 
 ### 3.Data Modeling
 Developing fact and dimension tables optimized for analytical queries, following star schema model
+
 ![Data_Model](documents/Data_Model.png)
 ---
 ## ⛏️Toolkit: 
