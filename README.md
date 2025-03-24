@@ -20,7 +20,7 @@ This approach includes Bronze, Silver, and Gold layers.
 - Gold Layer where contains business-ready dataset modeled into a star schema required for reporting and analytics purpose.
 ----
 
-![image alt](documents/Data Architecture.png)
+![Data_Architeture](documents/Data_Architeture.png)
   
 3. ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
 Extraction method: Pull extraction,
