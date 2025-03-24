@@ -18,7 +18,8 @@ This approach includes Bronze, Silver, and Gold layers.
 - Bronze Layer where Stores raw data from the source systems. In this project, data is ingested from CSV Files into SQL Server Database.
 - Silver Layer Where perform data cleansing, standardization, and normalization processes to prepare data for analysis, but not apply business rules yet.
 - Gold Layer where contains business-ready dataset modeled into a star schema required for reporting and analytics purpose.
-  ![]DataArchitecture.png
+
+![image alt].(http://github.com/nhitran1111/DWH-SQL-Project/blob/main/documents/Data%20Architecture.png)
   
 3. ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
 Extraction method: Pull extraction,
