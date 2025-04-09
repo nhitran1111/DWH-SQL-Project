@@ -48,6 +48,6 @@ Developing fact and dimension tables optimized for analytical queries, following
 ![Data_Model](documents/Data_Model.png)
 ---
 ## ⛏️Toolkit: 
-`SQL Server Express` `SQL Server Managerment Studio` `Draw.io` `Notion`
+`SQL Server Express` `SQL Server Management Studio` `Draw.io` `Notion`
 
 
